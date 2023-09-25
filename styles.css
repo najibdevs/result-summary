@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(225, 67%, 99%);
+  margin-top: 200px;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card {
+  background: white;
+  width: 650px;
+  height: 450px;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini-card {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  width: 320px;
+  height: 450px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.content-card {
+  background-color: white;
+  text-align: center;
+  width: 320px;
+  height: 450px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.content-card h1 {
+  font-size: 25px;
+  position: relative;
+  right: 80px;
+  top: -7px;
+}
+
+.mini-card h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: lightgrey;
+}
+
+.mini-card h2 {
+  display: inline-block;
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+.circle {
+  width: 150px; /* Set the width */
+  height: 150px; /* Ensure height is equal to the width */
+  border-radius: 50%; /* Make it a circle */
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  position: relative;
+  left: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.circle p {
+  color: rgb(184, 184, 184);
+  margin-top: -10px;
+}
+
+.text h3 {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.text p {
+  font-size: 16px;
+  color: lightgrey;
+}
+
+.energy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(0, 84%, 95%);
+  width: 270px;
+  position: relative;
+  right: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.energy-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.energy-icon p {
+  padding-left: 10px;
+  color: hsl(0, 96%, 60%);
+  font-weight: 500;
+}
+
+.energy-range {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.energy-range p {
+  padding-left: 5px;
+  font-weight: 800;
+}
+
+.memory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(40, 87%, 91%);
+  width: 270px;
+  position: relative;
+  right: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.memory-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.memory-icon p {
+  padding-left: 10px;
+  color: hsl(39, 100%, 55%);
+  font-weight: 500;
+}
+
+.memory-range {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.memory-range p {
+  padding-left: 5px;
+  font-weight: 800;
+}
+
+.visual {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(236, 88%, 94%);
+  width: 270px;
+  position: relative;
+  right: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.visual-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.visual-icon p {
+  padding-left: 10px;
+  color: hsl(234, 93%, 46%);
+  font-weight: 500;
+}
+
+.visual-range {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.visual-range p {
+  padding-left: 5px;
+  font-weight: 800;
+}
+
+.verbal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(166, 81%, 92%);
+  width: 270px;
+  position: relative;
+  right: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.verbal-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.verbal-icon p {
+  padding-left: 10px;
+  color: hsl(166, 100%, 36%);
+  font-weight: 500;
+}
+
+.verbal-range {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.verbal-range p {
+  padding-left: 5px;
+  font-weight: 800;
+}
+
+button {
+  position: relative;
+  top: -80px;
+  left: 890px;
+  font-size: 15px;
+  background: hsl(224, 30%, 27%);
+  width: 260px;
+  padding: 17px;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.lightgrey {
+  color: rgb(141, 141, 141);
+}
