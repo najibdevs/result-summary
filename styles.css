@@ -41,7 +41,8 @@ body {
 }
 
 .content-card h1 {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 700;
   position: relative;
   right: 80px;
   top: -7px;
@@ -155,7 +156,7 @@ body {
 
 .memory-range p {
   padding-left: 5px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .visual {
@@ -191,7 +192,7 @@ body {
 
 .visual-range p {
   padding-left: 5px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .verbal {
@@ -227,7 +228,7 @@ body {
 
 .verbal-range p {
   padding-left: 5px;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 button {
